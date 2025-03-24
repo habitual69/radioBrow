@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Base circle -->
+  <circle cx="12" cy="12" r="2" fill="#e6af2e" stroke="#e6af2e" opacity="0.9"></circle>
+  
+  <!-- Inner wave -->
+  <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49" stroke="#e6af2e" stroke-dasharray="0.5 0.5" opacity="0.8"></path>
+  
+  <!-- Outer wave -->
+  <path d="M19.07 4.93a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14" stroke="#e6af2e" stroke-dasharray="0.3 0.3" opacity="0.6"></path>
+  
+  <!-- Decorative elements -->
+  <path d="M12 2v2M12 20v2M2 12h2M20 12h2" stroke="#e6af2e" opacity="0.4" stroke-width="1"></path>
+  
+  <!-- Pulse animation - to be animated with CSS -->
+  <circle cx="12" cy="12" r="11" stroke="#e6af2e" opacity="0.2" stroke-width="0.5" class="pulse-circle"></circle>
+</svg>
