@@ -2,10 +2,8 @@
 import axios from 'axios';
 
 const SERVER_LIST = [
-  { "ip": "2a01:4f9:c011:bc25::1", "name": "nl1.api.radio-browser.info" },
-  { "ip": "2a01:4f8:c2c:f004::1", "name": "de2.api.radio-browser.info" },
-  { "ip": "65.109.136.86", "name": "nl1.api.radio-browser.info" },
-  { "ip": "162.55.180.156", "name": "de2.api.radio-browser.info" }
+  { "ip": null, "name": "fi1.api.radio-browser.info" },
+  { "ip": null, "name": "de2.api.radio-browser.info" }
 ];
 
 const api = axios.create({

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FiPlay, FiHeart, FiRadio, FiArrowLeft } from 'react-icons/fi';
+import { FiPlay, FiPause, FiHeart, FiRadio, FiArrowLeft } from 'react-icons/fi'; // Added FiPause here
 import { useAudioPlayer } from '../contexts/AudioPlayerContext';
 
 const Favorites = () => {
