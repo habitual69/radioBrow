@@ -2,7 +2,7 @@
 
 A modern web application for discovering and streaming radio stations worldwide.
 
-![Demo Screenshot](https://via.placeholder.com/800x450?text=Radio+Browser+Screenshot)  
+![Demo Screenshot](screenshot-1.pnghttps://raw.githubusercontent.com/habitual69/radioBrow/refs/heads/main/screenshot-1.png)  
 *(Consider adding an actual screenshot here)*
 
 ## ✨ Key Features
