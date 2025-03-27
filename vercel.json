@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build"
-    }
-  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
   "routes": [
     {
       "src": "/static/(.*)",
@@ -18,10 +15,6 @@
     {
       "src": "/manifest.json",
       "dest": "/manifest.json"
-    },
-    {
-      "src": "/asset-manifest.json",
-      "dest": "/asset-manifest.json"
     },
     {
       "src": "/(.*)",
