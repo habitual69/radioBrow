@@ -3,29 +3,29 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node"
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
-    { 
-      "src": "/favorites", 
-      "dest": "/" 
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     },
-    { 
-      "src": "/search", 
-      "dest": "/" 
+    {
+      "src": "/favicon.ico",
+      "dest": "/favicon.ico"
     },
-    { 
-      "src": "/station/[^/]+", 
-      "dest": "/" 
+    {
+      "src": "/manifest.json",
+      "dest": "/manifest.json"
     },
-    { 
-      "src": "/stations/bytag/[^/]+", 
-      "dest": "/" 
+    {
+      "src": "/asset-manifest.json",
+      "dest": "/asset-manifest.json"
     },
-    { 
-      "src": "/(.*)", 
-      "dest": "/" 
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
