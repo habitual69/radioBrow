@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { 
+      "src": "/favorites", 
+      "dest": "/" 
+    },
+    { 
+      "src": "/search", 
+      "dest": "/" 
+    },
+    { 
+      "src": "/station/[^/]+", 
+      "dest": "/" 
+    },
+    { 
+      "src": "/stations/bytag/[^/]+", 
+      "dest": "/" 
+    },
+    { 
+      "src": "/(.*)", 
+      "dest": "/" 
+    }
+  ]
+}
